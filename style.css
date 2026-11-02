@@ -112,7 +112,7 @@ header {
 }
 
 .welcome {
-    color: #C6F36B;
+    color: #C4B5FD;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -123,7 +123,7 @@ header {
     display: inline-block;
     width: 9px;
     height: 9px;
-    background-color: #C6F36B;
+    background-color: #C4B5FD;
     border-radius: 50%;
     margin-right: 8px;
 }
@@ -136,13 +136,13 @@ header {
 }
 
 .hero h1 span {
-    color: #C6F36B;
+    color: #C4B5FD;
 }
 
 .hero h2 {
     font-size: 19px;
     font-weight: 500;
-    color: #FF8066;
+    color: #A78BFA;
     margin-bottom: 22px;
 }
 
@@ -172,7 +172,7 @@ header {
 }
 
 .primary-btn {
-    background-color: #C6F36B;
+    background-color: #C4B5FD;
     color: #101828;
 }
 
@@ -187,8 +187,8 @@ header {
 }
 
 .secondary-btn:hover {
-    border-color: #C6F36B;
-    color: #C6F36B;
+    border-color: #C4B5FD;
+    color: #C4B5FD;
     transform: translateY(-4px);
 }
 
@@ -220,7 +220,7 @@ header {
     position: absolute;
     width: 300px;
     height: 350px;
-    background-color: #C6F36B;
+    background-color: #C4B5FD;
     border-radius: 150px 150px 25px 25px;
     transform: rotate(8deg);
     top: 10px;
@@ -241,7 +241,7 @@ header {
 .profile-placeholder {
     height: 320px;
     border-radius: 140px 140px 12px 12px;
-    background: linear-gradient(145deg, #FF8066, #C6F36B);
+    background: linear-gradient(145deg, #A78BFA, #C4B5FD);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,7 +285,7 @@ header {
 }
 
 .social-links a {
-    color: #C6F36B;
+    color: #C4B5FD;
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
@@ -309,7 +309,7 @@ header {
 }
 
 .floating-tag span {
-    color: #FF8066;
+    color: #A78BFA;
 }
 
 
@@ -325,7 +325,7 @@ header {
 }
 
 .section-label {
-    color: #D66B53;
+    color: #A78BFA;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -338,7 +338,7 @@ header {
 }
 
 .section-heading h2 span {
-    color: #7A9F35;
+    color: #A78BFA;
 }
 
 .about-content {
@@ -361,7 +361,7 @@ header {
 }
 
 .card-number {
-    color: #7A9F35;
+    color: #A78BFA;
     font-size: 13px;
     font-weight: 700;
 }
@@ -396,6 +396,7 @@ header {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 27px;
     margin-bottom: 10px;
+    color: #C4B5FD;
 }
 
 .contact-section p:not(.section-label) {
@@ -416,7 +417,7 @@ footer {
 }
 
 footer a {
-    color: #C6F36B;
+    color: #C4B5FD;
     text-decoration: none;
 }
 
