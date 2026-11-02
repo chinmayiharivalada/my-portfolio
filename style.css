@@ -21,6 +21,7 @@ body {
 }
 
 
+
 /* NAVIGATION BAR */
 header {
     width: 100%;
@@ -34,22 +35,18 @@ header {
     justify-content: space-between;
 }
 
-
-
-.logo span {
-    color: #C6F36B;
-}
-
-
-
-.logo span {
-    color: #C6F36B;
+/* LOGO */
+.logo,
+.logo a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .logo span {
-    color: #C6F36B;
+    color: #FFFFFF;
 }
 
+/* NAVIGATION LINKS */
 .nav-links {
     display: flex;
     list-style: none;
@@ -58,31 +55,46 @@ header {
 
 .nav-links a {
     text-decoration: none;
-    color: #B8C0CC;
+    color: #FFFFFF;
     font-size: 14px;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
-.nav-links a:hover,
+.nav-links a:visited {
+    color: #FFFFFF;
+}
+
+.nav-links a:hover {
+    color: #C4B5FD;
+}
+
 .nav-links a.active {
-    color: #C6F36B;
+    color: #C4B5FD;
 }
 
+/* CONTACT BUTTON */
 .nav-button {
-    background-color: #C6F36B;
-    color: #101828;
+    background-color: transparent;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 12px 22px;
+    border: 1px solid transparent;
     border-radius: 30px;
-    font-size: 13px;
-    font-weight: 700;
-    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-button:visited {
+    color: #FFFFFF;
 }
 
 .nav-button:hover {
-    background-color: #FFFFFF;
-    transform: translateY(-3px);
+    color: #C4B5FD;
+    border-color: #C4B5FD;
+    transform: translateY(-2px);
 }
+
 
 
 /* HERO SECTION */
@@ -529,6 +541,8 @@ footer a {
    ATTRACTIVE RESUME PAGE DESIGN
 ================================= */
 
+
+/* RESUME PAGE */
 .resume-page {
     max-width: 1050px;
     margin: 70px auto;
@@ -536,18 +550,17 @@ footer a {
 }
 
 /* Resume Heading */
-
 .resume-heading {
     text-align: center;
     margin-bottom: 65px;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #202C3D, #182638);
-    border: 1px solid rgba(198, 243, 107, 0.2);
+    background: linear-gradient(135deg, #426984, #060d16);
+    border: 1px solid rgba(196, 181, 253, 0.25);
     border-radius: 25px;
 }
 
 .resume-heading .eyebrow {
-    color: #C6F36B;
+    color: #C4B5FD;
     letter-spacing: 4px;
     font-size: 12px;
     font-weight: 700;
@@ -557,10 +570,11 @@ footer a {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 58px;
     margin: 15px 0;
+    color: #FFFFFF;
 }
 
 .resume-heading h1 span {
-    color: #C6F36B;
+    color: #C4B5FD;
 }
 
 .resume-heading > p:last-child {
@@ -569,7 +583,6 @@ footer a {
 }
 
 /* Resume Sections */
-
 .resume-section {
     position: relative;
     padding: 35px;
@@ -582,13 +595,12 @@ footer a {
 
 .resume-section:hover {
     transform: translateY(-5px);
-    border-color: #C6F36B;
+    border-color: #C4B5FD;
 }
 
 /* Section Headings */
-
 .resume-section h2 {
-    color: #C6F36B;
+    color: #C4B5FD;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 21px;
     margin-bottom: 25px;
@@ -597,7 +609,6 @@ footer a {
 }
 
 /* Normal Text */
-
 .resume-section p {
     color: #C5CED9;
     font-size: 14px;
@@ -605,12 +616,11 @@ footer a {
 }
 
 /* Education and Project Details */
-
 .resume-item {
     padding: 20px;
     margin-bottom: 18px;
     background: rgba(16, 24, 40, 0.65);
-    border-left: 3px solid #FF8066;
+    border-left: 3px solid #A78BFA;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
@@ -632,14 +642,13 @@ footer a {
 
 .resume-item span {
     display: inline-block;
-    color: #C6F36B;
+    color: #C4B5FD;
     font-size: 12px;
     font-weight: 600;
     margin-top: 12px;
 }
 
 /* Skill Tags */
-
 .skill-list {
     display: flex;
     flex-wrap: wrap;
@@ -649,9 +658,9 @@ footer a {
 
 .skill-list span {
     padding: 10px 18px;
-    background: rgba(198, 243, 107, 0.09);
-    border: 1px solid rgba(198, 243, 107, 0.3);
-    color: #C6F36B;
+    background: rgba(196, 181, 253, 0.09);
+    border: 1px solid rgba(196, 181, 253, 0.3);
+    color: #D8CCFF;
     border-radius: 30px;
     font-size: 13px;
     font-weight: 600;
@@ -659,32 +668,29 @@ footer a {
 }
 
 .skill-list span:hover {
-    background: #C6F36B;
+    background: #C4B5FD;
     color: #101828;
     transform: translateY(-3px);
 }
 
 /* Contact Links */
-
 .resume-section a {
-    color: #C6F36B;
+    color: #C4B5FD;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .resume-section a:hover {
-    color: #FF8066;
+    color: #FFFFFF;
     text-decoration: underline;
 }
 
 /* Navigation Active Link */
-
 .navbar nav a.active {
-    color: #C6F36B;
+    color: #C4B5FD;
 }
 
 /* Page Animation */
-
 .resume-heading {
     animation: resumeAppear 0.7s ease;
 }
@@ -706,7 +712,6 @@ footer a {
 }
 
 /* Mobile Responsive Design */
-
 @media (max-width: 600px) {
 
     .resume-page {
@@ -743,6 +748,8 @@ footer a {
    BIO-DATA PAGE DESIGN
 ================================= */
 
+
+/* BIO-DATA PAGE */
 .biodata-page {
     max-width: 1050px;
     margin: 70px auto;
@@ -750,18 +757,17 @@ footer a {
 }
 
 /* Heading */
-
 .biodata-heading {
     text-align: center;
     padding: 50px 20px;
     margin-bottom: 45px;
     background: linear-gradient(135deg, #202C3D, #182638);
-    border: 1px solid rgba(198, 243, 107, 0.2);
+    border: 1px solid rgba(196, 181, 253, 0.25);
     border-radius: 25px;
 }
 
 .biodata-heading .eyebrow {
-    color: #C6F36B;
+    color: #C4B5FD;
     letter-spacing: 4px;
     font-size: 12px;
     font-weight: 700;
@@ -771,10 +777,11 @@ footer a {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 55px;
     margin: 15px 0;
+    color: #FFFFFF;
 }
 
 .biodata-heading h1 span {
-    color: #C6F36B;
+    color: #C4B5FD;
 }
 
 .biodata-heading > p:last-child {
@@ -783,7 +790,6 @@ footer a {
 }
 
 /* Bio-data Cards */
-
 .biodata-card {
     background: linear-gradient(145deg, #202C3D, #192638);
     border: 1px solid rgba(255,255,255,0.09);
@@ -796,13 +802,12 @@ footer a {
 
 .biodata-card:hover {
     transform: translateY(-4px);
-    border-color: #C6F36B;
+    border-color: #C4B5FD;
 }
 
 /* Card Headings */
-
 .biodata-card h2 {
-    color: #C6F36B;
+    color: #C4B5FD;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 21px;
     margin-bottom: 25px;
@@ -811,7 +816,6 @@ footer a {
 }
 
 /* Personal Details Grid */
-
 .biodata-details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -822,7 +826,7 @@ footer a {
     padding: 18px;
     background: rgba(16, 24, 40, 0.65);
     border-radius: 12px;
-    border-left: 3px solid #FF8066;
+    border-left: 3px solid #A78BFA;
 }
 
 .detail-item span {
@@ -839,16 +843,15 @@ footer a {
 }
 
 .detail-item a {
-    color: #C6F36B;
+    color: #C4B5FD;
     text-decoration: none;
 }
 
 .detail-item a:hover {
-    color: #FF8066;
+    color: #FFFFFF;
 }
 
 /* Education Table */
-
 .education-table {
     width: 100%;
     overflow-x: auto;
@@ -866,14 +869,13 @@ footer a {
 }
 
 .education-header {
-    color: #C6F36B;
+    color: #C4B5FD;
     font-weight: 700;
-    background: rgba(198, 243, 107, 0.07);
+    background: rgba(196, 181, 253, 0.08);
     border-radius: 8px;
 }
 
 /* Skill and Interest Tags */
-
 .bio-skills {
     display: flex;
     flex-wrap: wrap;
@@ -881,9 +883,9 @@ footer a {
 }
 
 .bio-skills span {
-    background: rgba(198, 243, 107, 0.09);
-    border: 1px solid rgba(198, 243, 107, 0.3);
-    color: #C6F36B;
+    background: rgba(196, 181, 253, 0.09);
+    border: 1px solid rgba(196, 181, 253, 0.3);
+    color: #D8CCFF;
     padding: 11px 18px;
     border-radius: 30px;
     font-size: 13px;
@@ -892,13 +894,12 @@ footer a {
 }
 
 .bio-skills span:hover {
-    background: #C6F36B;
+    background: #C4B5FD;
     color: #101828;
     transform: translateY(-3px);
 }
 
 /* Declaration */
-
 .declaration > p {
     color: #D5DAE1;
     font-size: 14px;
@@ -914,18 +915,16 @@ footer a {
 }
 
 .declaration-details p {
-    color: #C6F36B;
+    color: #C4B5FD;
     font-size: 13px;
 }
 
 /* Active Navigation */
-
 .navbar nav a.active {
-    color: #C6F36B;
+    color: #C4B5FD;
 }
 
 /* Mobile Responsive */
-
 @media (max-width: 600px) {
 
     .biodata-page {
@@ -957,24 +956,29 @@ footer a {
         flex-direction: column;
     }
 }
+
+/* BACK TO TOP BUTTON */
 #backToTop {
     display: none;
     position: fixed;
     bottom: 25px;
     right: 25px;
-    background: #C6F36B;
+    background: #C4B5FD;
     color: #101828;
     border: none;
     padding: 12px 18px;
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.3s ease;
 }
 
 #backToTop:hover {
     background: #FFFFFF;
+    transform: translateY(-3px);
 }
 
+/* LOGO STYLING */
 .logo {
     font-family: 'Exo 2', sans-serif !important;
     font-size: 23px;
